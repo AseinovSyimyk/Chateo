@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A90DB2BA563B8271F776D86 /* Pods_Chateo_ChateoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3993B6AE7EFC251FCEFD72 /* Pods_Chateo_ChateoUITests.framework */; };
+		8399A30E1F31ADF6C0D957B3 /* Pods_ChateoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCC484D225CFE2F4DC2108D /* Pods_ChateoTests.framework */; };
+		C9F0DCACA89EE62619DD7AD2 /* Pods_Chateo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7861A7F4379B1C3CC446A983 /* Pods_Chateo.framework */; };
 		CEC570B52B908B1400C34860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC570B42B908B1400C34860 /* AppDelegate.swift */; };
 		CEC570B72B908B1400C34860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC570B62B908B1400C34860 /* SceneDelegate.swift */; };
-		CEC570B92B908B1400C34860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC570B82B908B1400C34860 /* ViewController.swift */; };
-		CEC570BC2B908B1400C34860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC570BA2B908B1400C34860 /* Main.storyboard */; };
+		CEC570B92B908B1400C34860 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC570B82B908B1400C34860 /* LoginViewController.swift */; };
 		CEC570BE2B908B2900C34860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC570BD2B908B2900C34860 /* Assets.xcassets */; };
 		CEC570C12B908B2900C34860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC570BF2B908B2900C34860 /* LaunchScreen.storyboard */; };
-		CEC570CC2B908B2A00C34860 /* ChateoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC570CB2B908B2A00C34860 /* ChateoTests.swift */; };
-		CEC570D62B908B2A00C34860 /* ChateoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC570D52B908B2A00C34860 /* ChateoUITests.swift */; };
-		CEC570D82B908B2A00C34860 /* ChateoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC570D72B908B2A00C34860 /* ChateoUITestsLaunchTests.swift */; };
+		CEC570E92B908D2600C34860 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC570E82B908D2600C34860 /* SplashViewController.swift */; };
+		CEC571292B92026500C34860 /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC571282B92026500C34860 /* PhoneNumberViewController.swift */; };
+		CEC5712B2B9221BB00C34860 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5712A2B9221BA00C34860 /* MessageViewController.swift */; };
+		CEC5712D2B938ED100C34860 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5712C2B938ED100C34860 /* ContactViewController.swift */; };
+		CEC5712F2B939EA400C34860 /* AllContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5712E2B939EA300C34860 /* AllContactsViewController.swift */; };
+		CEC571312B9761F300C34860 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC571302B9761F200C34860 /* ChatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +41,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073DB0D14D3EE9A768A22BFF /* Pods-Chateo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chateo.release.xcconfig"; path = "Target Support Files/Pods-Chateo/Pods-Chateo.release.xcconfig"; sourceTree = "<group>"; };
+		1CE6E3FA383304F75FC0B562 /* Pods-ChateoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChateoTests.debug.xcconfig"; path = "Target Support Files/Pods-ChateoTests/Pods-ChateoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E8000556F765319E9D28C99 /* Pods-Chateo-ChateoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chateo-ChateoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chateo-ChateoUITests/Pods-Chateo-ChateoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A741FAA0D60CEBA7BE5799D /* Pods-Chateo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chateo.debug.xcconfig"; path = "Target Support Files/Pods-Chateo/Pods-Chateo.debug.xcconfig"; sourceTree = "<group>"; };
+		4EE8E6561801A3B13BAB230F /* Pods-ChateoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChateoTests.release.xcconfig"; path = "Target Support Files/Pods-ChateoTests/Pods-ChateoTests.release.xcconfig"; sourceTree = "<group>"; };
+		676396DE660C1BC3F6365BD2 /* Pods-Chateo-ChateoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chateo-ChateoUITests.release.xcconfig"; path = "Target Support Files/Pods-Chateo-ChateoUITests/Pods-Chateo-ChateoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C3993B6AE7EFC251FCEFD72 /* Pods_Chateo_ChateoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chateo_ChateoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7861A7F4379B1C3CC446A983 /* Pods_Chateo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chateo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCC484D225CFE2F4DC2108D /* Pods_ChateoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChateoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC570B12B908B1400C34860 /* Chateo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chateo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC570B42B908B1400C34860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC570B62B908B1400C34860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEC570B82B908B1400C34860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEC570BB2B908B1400C34860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC570B82B908B1400C34860 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CEC570BD2B908B2900C34860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC570C02B908B2900C34860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC570C22B908B2900C34860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC570C72B908B2A00C34860 /* ChateoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChateoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC570CB2B908B2A00C34860 /* ChateoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChateoTests.swift; sourceTree = "<group>"; };
 		CEC570D12B908B2A00C34860 /* ChateoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChateoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC570D52B908B2A00C34860 /* ChateoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChateoUITests.swift; sourceTree = "<group>"; };
-		CEC570D72B908B2A00C34860 /* ChateoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChateoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEC570E82B908D2600C34860 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CEC571282B92026500C34860 /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		CEC5712A2B9221BA00C34860 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		CEC5712C2B938ED100C34860 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		CEC5712E2B939EA300C34860 /* AllContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllContactsViewController.swift; sourceTree = "<group>"; };
+		CEC571302B9761F200C34860 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F0DCACA89EE62619DD7AD2 /* Pods_Chateo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8399A30E1F31ADF6C0D957B3 /* Pods_ChateoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +88,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A90DB2BA563B8271F776D86 /* Pods_Chateo_ChateoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B0EA0F7DC77C35AB1E9E357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7861A7F4379B1C3CC446A983 /* Pods_Chateo.framework */,
+				6C3993B6AE7EFC251FCEFD72 /* Pods_Chateo_ChateoUITests.framework */,
+				BFCC484D225CFE2F4DC2108D /* Pods_ChateoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEC570A82B908B1300C34860 = {
 			isa = PBXGroup;
 			children = (
+				CEC570E62B908C3B00C34860 /* Controller */,
+				CEC570E72B908C4B00C34860 /* AppDelegate */,
 				CEC570B32B908B1400C34860 /* Chateo */,
-				CEC570CA2B908B2A00C34860 /* ChateoTests */,
-				CEC570D42B908B2A00C34860 /* ChateoUITests */,
 				CEC570B22B908B1400C34860 /* Products */,
+				F7DAE4593EEED872A73B19CB /* Pods */,
+				6B0EA0F7DC77C35AB1E9E357 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,32 +130,55 @@
 		CEC570B32B908B1400C34860 /* Chateo */ = {
 			isa = PBXGroup;
 			children = (
-				CEC570B42B908B1400C34860 /* AppDelegate.swift */,
-				CEC570B62B908B1400C34860 /* SceneDelegate.swift */,
-				CEC570B82B908B1400C34860 /* ViewController.swift */,
-				CEC570BA2B908B1400C34860 /* Main.storyboard */,
-				CEC570BD2B908B2900C34860 /* Assets.xcassets */,
-				CEC570BF2B908B2900C34860 /* LaunchScreen.storyboard */,
+				CEC570E42B908C2100C34860 /* Resources */,
 				CEC570C22B908B2900C34860 /* Info.plist */,
 			);
 			path = Chateo;
 			sourceTree = "<group>";
 		};
-		CEC570CA2B908B2A00C34860 /* ChateoTests */ = {
+		CEC570E42B908C2100C34860 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CEC570CB2B908B2A00C34860 /* ChateoTests.swift */,
+				CEC570BF2B908B2900C34860 /* LaunchScreen.storyboard */,
+				CEC570BD2B908B2900C34860 /* Assets.xcassets */,
 			);
-			path = ChateoTests;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		CEC570D42B908B2A00C34860 /* ChateoUITests */ = {
+		CEC570E62B908C3B00C34860 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CEC570D52B908B2A00C34860 /* ChateoUITests.swift */,
-				CEC570D72B908B2A00C34860 /* ChateoUITestsLaunchTests.swift */,
+				CEC570E82B908D2600C34860 /* SplashViewController.swift */,
+				CEC570B82B908B1400C34860 /* LoginViewController.swift */,
+				CEC571282B92026500C34860 /* PhoneNumberViewController.swift */,
+				CEC5712A2B9221BA00C34860 /* MessageViewController.swift */,
+				CEC5712C2B938ED100C34860 /* ContactViewController.swift */,
+				CEC5712E2B939EA300C34860 /* AllContactsViewController.swift */,
+				CEC571302B9761F200C34860 /* ChatsViewController.swift */,
 			);
-			path = ChateoUITests;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEC570E72B908C4B00C34860 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CEC570B42B908B1400C34860 /* AppDelegate.swift */,
+				CEC570B62B908B1400C34860 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F7DAE4593EEED872A73B19CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A741FAA0D60CEBA7BE5799D /* Pods-Chateo.debug.xcconfig */,
+				073DB0D14D3EE9A768A22BFF /* Pods-Chateo.release.xcconfig */,
+				1E8000556F765319E9D28C99 /* Pods-Chateo-ChateoUITests.debug.xcconfig */,
+				676396DE660C1BC3F6365BD2 /* Pods-Chateo-ChateoUITests.release.xcconfig */,
+				1CE6E3FA383304F75FC0B562 /* Pods-ChateoTests.debug.xcconfig */,
+				4EE8E6561801A3B13BAB230F /* Pods-ChateoTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC570DB2B908B2A00C34860 /* Build configuration list for PBXNativeTarget "Chateo" */;
 			buildPhases = (
+				57AC5521A5951A3596C00069 /* [CP] Check Pods Manifest.lock */,
 				CEC570AD2B908B1400C34860 /* Sources */,
 				CEC570AE2B908B1400C34860 /* Frameworks */,
 				CEC570AF2B908B1400C34860 /* Resources */,
+				523FB5ED2A674D70ACD326E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC570DE2B908B2A00C34860 /* Build configuration list for PBXNativeTarget "ChateoTests" */;
 			buildPhases = (
+				21D8277B1C6D06A35951AF36 /* [CP] Check Pods Manifest.lock */,
 				CEC570C32B908B2A00C34860 /* Sources */,
 				CEC570C42B908B2A00C34860 /* Frameworks */,
 				CEC570C52B908B2A00C34860 /* Resources */,
@@ -169,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC570E12B908B2A00C34860 /* Build configuration list for PBXNativeTarget "ChateoUITests" */;
 			buildPhases = (
+				D9E0384EAF6785C7859CA6EE /* [CP] Check Pods Manifest.lock */,
 				CEC570CD2B908B2A00C34860 /* Sources */,
 				CEC570CE2B908B2A00C34860 /* Frameworks */,
 				CEC570CF2B908B2A00C34860 /* Resources */,
+				66B78F355DB4537BE08C6F51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +292,6 @@
 			files = (
 				CEC570C12B908B2900C34860 /* LaunchScreen.storyboard in Resources */,
 				CEC570BE2B908B2900C34860 /* Assets.xcassets in Resources */,
-				CEC570BC2B908B1400C34860 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +311,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21D8277B1C6D06A35951AF36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChateoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		523FB5ED2A674D70ACD326E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chateo/Pods-Chateo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chateo/Pods-Chateo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chateo/Pods-Chateo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57AC5521A5951A3596C00069 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chateo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66B78F355DB4537BE08C6F51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chateo-ChateoUITests/Pods-Chateo-ChateoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chateo-ChateoUITests/Pods-Chateo-ChateoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chateo-ChateoUITests/Pods-Chateo-ChateoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E0384EAF6785C7859CA6EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chateo-ChateoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEC570AD2B908B1400C34860 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC570B92B908B1400C34860 /* ViewController.swift in Sources */,
+				CEC570B92B908B1400C34860 /* LoginViewController.swift in Sources */,
+				CEC5712F2B939EA400C34860 /* AllContactsViewController.swift in Sources */,
+				CEC5712D2B938ED100C34860 /* ContactViewController.swift in Sources */,
 				CEC570B52B908B1400C34860 /* AppDelegate.swift in Sources */,
+				CEC571292B92026500C34860 /* PhoneNumberViewController.swift in Sources */,
 				CEC570B72B908B1400C34860 /* SceneDelegate.swift in Sources */,
+				CEC5712B2B9221BB00C34860 /* MessageViewController.swift in Sources */,
+				CEC571312B9761F300C34860 /* ChatsViewController.swift in Sources */,
+				CEC570E92B908D2600C34860 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +435,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC570CC2B908B2A00C34860 /* ChateoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +442,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC570D82B908B2A00C34860 /* ChateoUITestsLaunchTests.swift in Sources */,
-				CEC570D62B908B2A00C34860 /* ChateoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +461,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEC570BA2B908B1400C34860 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEC570BB2B908B1400C34860 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEC570BF2B908B2900C34860 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,7 +509,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +572,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +593,7 @@
 		};
 		CEC570DC2B908B2A00C34860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A741FAA0D60CEBA7BE5799D /* Pods-Chateo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +603,6 @@
 				INFOPLIST_FILE = Chateo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +620,7 @@
 		};
 		CEC570DD2B908B2A00C34860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073DB0D14D3EE9A768A22BFF /* Pods-Chateo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,7 +630,6 @@
 				INFOPLIST_FILE = Chateo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,6 +647,7 @@
 		};
 		CEC570DF2B908B2A00C34860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE6E3FA383304F75FC0B562 /* Pods-ChateoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +667,7 @@
 		};
 		CEC570E02B908B2A00C34860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE8E6561801A3B13BAB230F /* Pods-ChateoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +687,7 @@
 		};
 		CEC570E22B908B2A00C34860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8000556F765319E9D28C99 /* Pods-Chateo-ChateoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +705,7 @@
 		};
 		CEC570E32B908B2A00C34860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676396DE660C1BC3F6365BD2 /* Pods-Chateo-ChateoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

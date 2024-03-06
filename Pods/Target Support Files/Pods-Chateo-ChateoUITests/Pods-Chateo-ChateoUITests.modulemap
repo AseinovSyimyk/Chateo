@@ -1,0 +1,6 @@
+framework module Pods_Chateo_ChateoUITests {
+  umbrella header "Pods-Chateo-ChateoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
